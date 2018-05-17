@@ -165,7 +165,7 @@ section h2.section-heading {
   margin-top: 0;
   margin-bottom: 15px;
   font-family: "Montserrat", sans-serif;
-  font-size: 50px;
+  font-size: 29px;
   font-weight: 300;
   color: #fff;
   line-height: 1;
@@ -217,7 +217,7 @@ MEDIA QUERIES
 -----------------------------------------------------------------------------*/
 
 @media (min-width: 769px) {
-  .intro .intro-body .intro-heading {
+  .intro-heading {
     font-size: 80px;
   }
 
@@ -226,15 +226,16 @@ MEDIA QUERIES
   }
 
   section h2.section-heading {
-    font-size: 55px;
+    font-size: 35px;
   }
 
   p {
     margin: 0 0 35px;
-    font-size: 20px;
-    line-height: 1.6;
+    font-size: 16px;
+    line-height: 1.6em;
   }
 }
+
 
 @media (max-width: 768px) {
   .intro .intro-body .intro-heading {
@@ -253,7 +254,32 @@ MEDIA QUERIES
     padding: 100px 0;
     margin: auto;
   }
+  .flex-container {
+   
+    display: flex;
+    text-align:center;
+    margin-right:30%;
+    width:100vw;
+  } 
 }
+
+
+
+@media (max-width: 565px) {
+    .intro-text {
+   padding:30px;
+   
+   }
+    .flex-container {
+   
+    display: flex;
+    text-align:center;
+    margin-right:30%;
+    width:100vw;
+  } 
+}
+
+
 
 @media (max-width: 360px) {
   .intro .intro-body .intro-heading {
@@ -263,4 +289,15 @@ MEDIA QUERIES
   .intro .intro-body .intro-text {
     font-size: 18px;
   }
+   
+  .flex-container {
+   
+    display: flex;
+    text-align:center;
+    margin-right:30%;
+    width:100vw;
+  } 
+
+
+
 }
