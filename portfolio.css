@@ -225,15 +225,7 @@ MEDIA QUERIES
 
 
 
-@media (min-width: 975px) {
-  .img {
-   
-   flex-wrap:wrap;
-   padding: 50px;
-   margin-right:20px;
-   width:350px;
-}
-}
+
 
 
 
