@@ -48,7 +48,7 @@ a:active {
 }
 
 .btn:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   transition-duration: 0.5s;
   color: #0083ae;
   outline: none;
@@ -87,7 +87,7 @@ NAVIGATION
 
 .navbar {
   padding: 5px;
-  background-color: #ffffff;
+  background-color: #fff;
   border-bottom-color: #7f919b;
 }
 
@@ -121,7 +121,7 @@ HEADER and below is the body and layout
   padding: 180px 0;
   text-align: center;
   background-size: cover;
-  
+
 }
 
 .intro .intro-body {
@@ -164,36 +164,7 @@ section h2.section-heading {
 }
 
 
-/* only needed in version 1
-.portfolio-item {
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-}
 
-#portfolio .portfolio-item .portfolio-link {
-  display: block;
-  position: relative;
-  margin: auto;
-  max-width: 350px;
-}
-
-.portfolio-item .img-responsive {
-  margin: 0 auto;
-}
-
-#portfolio .portfolio-item .caption-content {
-  margin: 0 auto;
-  text-align: center;
-}
-
-.container{
-  display: flex;
-  justify-content: center;
-}
-
-*/
 
 
 
@@ -259,12 +230,15 @@ MEDIA QUERIES
     margin: auto;
   }
   .flex-container {
-   
+
     display: flex;
     text-align:center;
     margin-right:30%;
     width:100vw;
-  } 
+  }
+  .img-fluid {
+    max-width: 100%;
+  }
 }
 
 
@@ -272,20 +246,24 @@ MEDIA QUERIES
 @media (max-width: 565px) {
     .intro-text {
    padding:30px;
-   
+
    }
     .flex-container {
-   
+
     display: flex;
     text-align:center;
     margin-right:30%;
     width:100vw;
-  } 
+  }
+  .img-fluid {
+    max-width: 100%;
+  }
+
 }
 
 
 
-@media (max-width: 360px) {
+@media (max-width: 375px) {
   .intro .intro-body .intro-heading {
     font-size: 45px;
   }
@@ -293,14 +271,17 @@ MEDIA QUERIES
   .intro .intro-body .intro-text {
     font-size: 18px;
   }
-   
+
   .flex-container {
-   
+
     display: flex;
     text-align:center;
     margin-right:30%;
-    width:100vw;
-  } 
+    width:100wv;
+  }
+ .img-fluid {
+   max-width: 100%;
+ }
 
 
 
