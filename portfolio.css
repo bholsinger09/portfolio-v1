@@ -281,7 +281,7 @@ MEDIA QUERIES
     display: flex;
     text-align:center;
     margin-right:30%;
-    width:100wv;
+    width:100vw;
   }
  .img-fluid {
    max-width: 100%;
